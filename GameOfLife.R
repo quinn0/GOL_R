@@ -85,6 +85,3 @@ image_write(animation,
             paste0(c("GOLBig3",as.character(length(hm)),"d10.gif"), collapse = ""),
                     quality = 100)
 
-# Use image magick
-# system('"C:\\Program Files (x86)\\LyX 2.0\\imagemagick\\convert.exe" -delay 20  *.png animation.gif')
-# Remove png files
